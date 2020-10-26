@@ -4,7 +4,11 @@ import React from 'react'
 import './App.scss'
 
 const App = () => {
-  return <div className="app">This is the application.</div>
+  return (
+    <div className="app">
+      This is the application.<div>dogs</div>
+    </div>
+  )
 }
 
 export default hot(App)
