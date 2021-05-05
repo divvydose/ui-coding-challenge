@@ -5,9 +5,18 @@
 For this challenge, you will develop an interface that fetches and displays all PRs for the https://github.com/divvydose/fe-coding-challenge repository. Use v3 of Github's REST API documented here: https://docs.github.com/en/free-pro-team@latest/rest.
 
 ## Objectives
-
-- Fetch all PRs from this repository and display them.
-- Each PR should have a detail view.
+A Single Page React App that: 
+- Fetches all PRs from this repository and displays them in a list.
+  - https://docs.github.com/en/rest/reference/pulls#list-pull-requests should be a good place to get your started 
+- Shows a loading indicator while the results are loading
+- Shows the following details for each pr:
+  - Title
+  - All labels
+  - Date opened
+  - A link to view the pull request
+- Lets the user filter the pr list by their labels
+  - e.g. if I select the `Bugs` label filter button, I would see only the pr for `DD-1002-fix-no-content | Fix issue where no content was displaying` in the list
+- Has tests for any of the more complicated logic
 
 ## Rules
 
