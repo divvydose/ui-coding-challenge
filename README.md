@@ -2,13 +2,13 @@
 
 ## Prompt
 
-For this challenge, you will develop an interface that fetches and displays all PRs for the https://github.com/divvydose/fe-coding-challenge repository. Use v3 of Github's REST API documented here: https://docs.github.com/en/free-pro-team@latest/rest.
+For this challenge, you will develop an interface that fetches and displays all PRs for the https://github.com/divvydose/ui-coding-challenge repository. Use v3 of Github's REST API documented here: https://docs.github.com/en/free-pro-team@latest/rest.
 
 ## Objectives
 A Single Page React App that: 
 - Fetches all PRs from this repository and displays them in a list.
   - https://docs.github.com/en/rest/reference/pulls#list-pull-requests should be a good place to get your started 
-- Shows a loading indicator while the results are loading
+- User should receive some sort of feedback when the page is loading
 - Shows the following details for each pr:
   - Title
   - All labels
